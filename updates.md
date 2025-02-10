@@ -18,9 +18,11 @@ setups of lights used to control the intensity, direction, and quality of light
 
 
 A near perfect score based on changing mechanical settings only would look like this:
+
 [image]
  
-The near perfect score shows the patches that scored 4 stars on Golden Thread as well as the darker patches. 
+The near perfect score shows the patches that scored 4 stars on Golden Thread as well as the darker patches.
+
 [image]
 
 The 6% means that some neutral patches were not 4 star compliant. 
@@ -29,11 +31,12 @@ The 6% means that some neutral patches were not 4 star compliant.
 ## WHAT IF MY IMAGE IS ALL TOO DARK OR BRIGHT?
 
 [iamge]
+
 WAY TOO BRIGHT  
 
 [iamge]
-WAY TOO DARK
 
+WAY TOO DARK
 
 If your images are too dark or too bright in Capture One, you can adjust the Exposure, Shutter Speed and Aperture settings to correct the brightness as well as the Lighting rig:
 
@@ -50,24 +53,25 @@ If your image is too dark or too bright, ensure that the aperture is locked at f
 ### Adjust Lighting Rig 
 Always ensure that the light rigs are on **“continuous”** for BC- 100 by toggling the control on the lighting power supply and that both LED lights are on. For Versa ensure that the Nexus software is open and the Stella Gemini lights are set to **“Computer Control”** by going to the back of the light and toggling the switch to the correct setting.
 
+[image]   
 
-[image]         
 BC-100 Lighting Rig
 
 [image]
-Versa Lighting Rig 
 
+Versa Lighting Rig 
 
 ## WHAT IF MY SCORES ARE MOSTLY GOOD AND A FEW ARE OFF?
 If your scores are mostly good, but there are a few issues, especially at the darker end of the neutrals, you can fix them by tweaking the luma curve a bit towards the lower end. We'll know which patches to adjust since Golden Thread shows a dropdown for each patch, along with its desired value.
+
 [image]
 
 
 The Image above shows that Patch I11 and J11 was too dark and did not hit the 4 star compliant Therefore we would need to adjust the **Luma curve**.
 
 See figures below
-[image]
 
+[image]
 
 The patch readouts should read values of  
 I11:lower limit 8.74 to upper limit 11.74 with an aim of (10.24)  
@@ -76,26 +80,29 @@ J11:lower limit 4.18 to upper limit 7.18 with an aim of (5.68)
 ### WHAT IS THE LUMA CURVE?
 The luma curve allows you to adjust the brightness (luminance) of specific tonal ranges in your image. 
 The example below shows the luma curve before any adjustments were made on the FADGI target. 
+
 [iamge]
 
 The example below shows a bad luma curve affecting patch I11 and J11 based on the generated Golden Thread values shown from the photo above.
+
 [iamge]
 
 
 #### Adjusting the luma curve 
 When the last patch is moved **UP** on the curve, it carries **up** the value of patches H11, I11 and carries down the value of J11. When the patch is moved **DOWN** on the curve , the value of patches H11 and I11 drops and the values of J11 goes **up**.
-[image]
 
+[image]
 
 When the Second last patch on the curve is moved **UP** it carries **up** the value of all three patches, when it is carried **DOWN** it carries down the value of all three patches.
-[image]
 
+[image]
 
 When the middle patch is moved **UP** on the curve, it carries **up** the value of patches H11, I11 and carries **down** the value of J11. When the patch is moved **DOWN** on the curve the value of patches H11 and I11 drops and the values of J11 goes **up**
+
 [image]
 
-
 When the fourth patch on the curve is carried **UP** patch H11 **drops** and the values of I11 and J11 goes **up**. When it is carried **DOWN** the values of patch H11 goes up and the values of I11 and J11 goes **down**.
+
 [image]
 
 **_Note: To determine which patches on the curve you will move and adjust will be  based on the readout values. These values give the feedback needed to change the patches' positions, helping the curve stay in line with the data._**
@@ -103,20 +110,25 @@ When the fourth patch on the curve is carried **UP** patch H11 **drops** and the
 After correcting the curve and sending the image to be tested in Golden Thread you should attain almost the perfect score. 
 
 ## The Perfect Score 
+
 [image]
+
 ### The Perfect Luma Curve
 After you adjusted the curve you should get almost the perfect score 
-The patch readouts should read values of  
-H11:lower limit 17.98 to upper limit 20.98 with an aim of (**19.48**) 
+The patch readouts should read values of
+
+H11:lower limit 17.98 to upper limit 20.98 with an aim of (**19.48**)\
 I11:lower limit 8.46 to upper limit 11.46 with an aim of (**9.96**)  
-J11:lower limit 2.91 to upper limit 5.91 with an aim of (**4.41**) 
+J11:lower limit 2.91 to upper limit 5.91 with an aim of (**4.41**)\
 ( Congratulations you hit a 4 star compliant based on the values given in the Golden Thread assessment. )
+
 [image]
 
 Values of full 4 star compliant
 
 ## WHAT IF I ADJUST MY LUMA CURVE TOO MUCH?
 Excessive bumps, lifts, or dips in the luma curve suggest underlying issues and the curve should be kept as straight as possible for optimal results. Any humps should be corrected before relying on curve adjustments. (This requires patience and a steady hand)
+
 [image]
 
 # Step-by-Step Guide: Creating an LCC Profile in Capture One
@@ -125,20 +137,26 @@ The **Lens Cast Correction (LCC)** ensures neutrality and color accuracy by prov
 ### How to Create an LCC Profile
 #### 1. Capture an LCC Reference Image
 - Place a white board in front of the lens to cover the entire field of view.
+
 [iamge]
+
 The image above shows how to position your white board. 
 
 By opening Capture One Live View you can reference if your board covers the entire field and it is shown perfectly below:
-[image]
 
+[image]
 
 - Adjust the **Shutter Speed** to a value between **1/8** and **1/20** before capturing the image.
 
 - Add Color **Readouts** in the **middle**, **upper**, **and lower edges** of the frame.
 In this case, Shutter speed of 1/15 was used and Readouts placed at 5 different positions. Using the red guide to place the middle readout to get an accurate value.
+
 [image]
+
 - Ensure the **Color Readout values fall within the 65-70 range** before creating the LCC.
+
 [image]
+
 After capturing again at 1/20 the readout values are good enough to go ahead and create the LCC Profile.
 
 #### 2. Import the LCC Image into Capture One
@@ -151,9 +169,11 @@ After capturing again at 1/20 the readout values are good enough to go ahead and
 - Click **Create LCC Profile** to analyze and generate the LCC correction.
 - Ensure the options for **Dust Removal, Color Cast, and Light Falloff Correction** are checked.
 - Click **Apply** to save the LCC profile.
+
 [iamge]
 
 After the LCC is created and the values are good, always change back to 1/8 shutter speed and capture the target and proceed to exposure and dropping color readouts on the patches. **You made it this far, Well Done!**
+
 [image]
 
 #### 4. Apply the LCC Profile to Your Images
@@ -165,9 +185,9 @@ After the LCC is created and the values are good, always change back to 1/8 shut
 - Zoom into your images and check for any unwanted color shifts or artifacts.
 - If necessary, tweak the **Light Falloff** or **Color Cast** settings in the **LCC Tool**.
 
-
 ### What If My Lightness Uniformity is Off in Golden Thread?
 If Lightness Uniformity is off, this indicates an issue in key LCC creation. Here’s what you can do:
+
 [image]
 
 The image above shows a Golden thread score of Lightness Uniformity being off
@@ -182,6 +202,7 @@ The image above shows a Golden thread score of Lightness Uniformity being off
 - It should cover the **entire field of view** to prevent inaccurate color readings.
 
 `Perfect examples of positioning the white board correctly and incorrectly:`
+
 [iamge]
 
 [image]
@@ -205,10 +226,12 @@ By following these steps, you’ll ensure cleaner and more color-accurate images
 
 ## What is the SFR? 
 A numerical value that describes how a camera changes contrast as a function of spatial frequency response. It's a measure of how well a camera's lens and sensor can resolve details in an image. In golden thread there are 2 types of SFR measurements.
+
 [image]
 
 ### 50% SFR 
 In Golden Thread the 50% SFR provides guidance on whether adjustments should be made to either increase or decrease the radius levels in the sharpening tab. This determination is based on the results of the corresponding graph below.
+
 [image]
 
 This image depicts what we aim our SFR graph to look like. If what is on your golden thread graph is similar to this you are on the correct track, however if not follow these troubleshooting steps below.
@@ -220,29 +243,33 @@ On the SFR graph there are 3 distinct colored markers on the x and y axis and th
 - Between the Red markers indicates a 2 star compliant level 
 - Between the Blue markers indicates a 3 star compliant level 
 - Between the Yellow markers indicates a 4 star compliment level 
+
 [image]
 
 Our aim is to place our curves on the golden thread graph between the yellow markers. This is done by increasing or decreasing the radius so that our curves are positioned between the yellow color markers on the graph. As you can see in the image above the curves are not passing through our yellow markers on the graph, therefore we have not achieved a 4 star compliant level.
 
 ##### How to increase or decrease your radius?
 The radius is found in the system's check heading under the sharpening tab. See image below. 
+
 [image]
 
 Select one of the values ranging 0.3 - 0.5 (preferably moving up or down by the value 0.1) depending on your system and this should rectify your 50% SFR issues.
 
 ##### How do you know if you have to increase or decrease your Radius?
 If your curves are positioned more to the **left** on the outside of your yellow colored vertical lines you should **increase** your radius preferably to a maximum of 0.5. 
+
 [iamge]
 
 In the image above our curves are located more to the **left** of our yellow markers, therefore we need to **increase** our radius.
  
 If your curves are positioned more to the **right** on the outside of your yellow colored vertical lines you should **decrease** your radius preferably to a minimum of 0.3.
-[image]
 
+[image]
 
 The image above shows our curves located more to the **right** of our yellow markers therefore we have to **decrease** our radius. 
 
 If you have correctly followed the troubleshooting steps you should have a SFR graph resembling the image below. 
+
 [image]
 
 ### 10% SFR - Sampling Efficiency 
@@ -253,14 +280,17 @@ When undergoing the process of calibration the numerical values in your Noise re
 - Details - 50 
 - Color - 40
 - Single Pixel - 0 
+
 [image]
 
 These are the settings that are used to produce the best possible score within the golden thread, however you may notice that the luminance is missing. In the event that you encounter an issue in golden thread where the 10% SFR is producing a 3 star or lower compliant level, you proceed to undergo the following process found below to rectify your issue: 
+
 [image]
 
 The image above shows an example of a 10% SFR - Sampling Efficiency that needs adjusting. 
 To rectify this issue you follow the process below.
 - Change the luminance numerical value of the Luminance found in the Noise Reduction Tab. The most reliable values to use are 0, 40 or 50. It is important to note every time you make a change in the systems check tab you **MUST** capture again after all changes are made. 
+
 [image]
 
 After you have changed your value and captured your image, run your image through a Golden Thread and your issue should be resolved.
