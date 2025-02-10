@@ -203,61 +203,69 @@ By following these steps, you’ll ensure cleaner and more color-accurate images
 
 # Step-by-Step Guide: Editing SFR 10% AND 50%
 
-What is the SFR? 
+## What is the SFR? 
 A numerical value that describes how a camera changes contrast as a function of spatial frequency response. It's a measure of how well a camera's lens and sensor can resolve details in an image. In golden thread there are 2 types of SFR measurements.
+[image]
 
-50% SFR 
+### 50% SFR 
 In Golden Thread the 50% SFR provides guidance on whether adjustments should be made to either increase or decrease the radius levels in the sharpening tab. This determination is based on the results of the corresponding graph below.
- 
+[image]
+
 This image depicts what we aim our SFR graph to look like. If what is on your golden thread graph is similar to this you are on the correct track, however if not follow these troubleshooting steps below.
 
-Troubleshooting 50%SFR
+#### Troubleshooting 50%SFR
 After completing the calibration within the Golden Thread, in the event the 50% SFR is off by approximately 60% with a 3 star complaint it becomes necessary to analyze and adjust the position curves on the SFR graph and bring it within an acceptable range. The key objective is to refine the settings and correct the difference to align with golden thread.  
 
 On the SFR graph there are 3 distinct colored markers on the x and y axis and the position of your curves within these markers determines a star compliant level. 
-Between the Red markers indicates a 2 star compliant level 
-Between the Blue markers indicates a 3 star compliant level 
-Between the Yellow markers indicates a 4 star compliment level 
-
+- Between the Red markers indicates a 2 star compliant level 
+- Between the Blue markers indicates a 3 star compliant level 
+- Between the Yellow markers indicates a 4 star compliment level 
+[image]
 
 Our aim is to place our curves on the golden thread graph between the yellow markers. This is done by increasing or decreasing the radius so that our curves are positioned between the yellow color markers on the graph. As you can see in the image above the curves are not passing through our yellow markers on the graph, therefore we have not achieved a 4 star compliant level.
-How to increase or decrease your radius?
+
+##### How to increase or decrease your radius?
 The radius is found in the system's check heading under the sharpening tab. See image below. 
+[image]
 
 Select one of the values ranging 0.3 - 0.5 (preferably moving up or down by the value 0.1) depending on your system and this should rectify your 50% SFR issues.
 
-How do you know if you have to increase or decrease your Radius?
-If your curves are positioned more to the left on the outside of your yellow colored vertical lines you should increase your radius preferably to a maximum of 0.5. 
+##### How do you know if you have to increase or decrease your Radius?
+If your curves are positioned more to the **left** on the outside of your yellow colored vertical lines you should **increase** your radius preferably to a maximum of 0.5. 
+[iamge]
 
-In the image above our curves are located more to the left of our yellow markers, therefore we need to increase our radius.
+In the image above our curves are located more to the **left** of our yellow markers, therefore we need to **increase** our radius.
  
-If your curves are positioned more to the right on the outside of your yellow colored vertical lines you should decrease your radius preferably to a minimum of 0.3.
+If your curves are positioned more to the **right** on the outside of your yellow colored vertical lines you should **decrease** your radius preferably to a minimum of 0.3.
+[image]
 
 
-The image above shows our curves located more to the right of our yellow markers therefore we have to decrease our radius. 
+The image above shows our curves located more to the **right** of our yellow markers therefore we have to **decrease** our radius. 
 
 If you have correctly followed the troubleshooting steps you should have a SFR graph resembling the image below. 
+[image]
 
-10% SFR - Sampling Efficiency 
+### 10% SFR - Sampling Efficiency 
 Is a metric used in digital imaging to assess how well a camera captures fine details, specifically by measuring the spatial frequency. Essentially, it indicates how much of the potential detail in an image a camera can actually capture at a given resolution, with a higher percentage signifying better detail capturing ability.
 
-Troubleshooting 10% SFR - Sampling Efficiency
+#### Troubleshooting 10% SFR - Sampling Efficiency
 When undergoing the process of calibration the numerical values in your Noise reduction tab should be as follows:
-Details - 50 
-Color - 40
-Single Pixel - 0 
+- Details - 50 
+- Color - 40
+- Single Pixel - 0 
+[image]
 
 These are the settings that are used to produce the best possible score within the golden thread, however you may notice that the luminance is missing. In the event that you encounter an issue in golden thread where the 10% SFR is producing a 3 star or lower compliant level, you proceed to undergo the following process found below to rectify your issue: 
+[image]
 
 The image above shows an example of a 10% SFR - Sampling Efficiency that needs adjusting. 
 To rectify this issue you follow the process below.
-Change the luminance numerical value of the Luminance found in the Noise Reduction Tab. The most reliable values to use are 0, 40 or 50. It is important to note every time you make a change in the systems check tab you MUST capture again after all changes are made. 
-
+- Change the luminance numerical value of the Luminance found in the Noise Reduction Tab. The most reliable values to use are 0, 40 or 50. It is important to note every time you make a change in the systems check tab you **MUST** capture again after all changes are made. 
+[image]
 
 After you have changed your value and captured your image, run your image through a Golden Thread and your issue should be resolved.
 
-Versa Object Stitching Workflow - Breakdown
-
+# Versa Object Stitching Workflow - Breakdown
 Step 1: Prepare Your Setup
 Camera Position
 Ensure your camera is positioned for optimal perspective.
