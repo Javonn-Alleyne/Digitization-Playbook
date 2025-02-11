@@ -69,7 +69,7 @@ The Image below shows that Patch I11 and J11 was too dark and did not hit the 4 
 
 See figures below
 
-![image8](<images/update_images/Screenshot 2025-02-05 144141.png>)
+![image8](<images/update_images/H11_I11_J11.png>)
 
 The patch readouts should read values of  
 I11:lower limit 8.74 to upper limit 11.74 with an aim of (10.24)  
@@ -83,24 +83,24 @@ The example below shows the luma curve before any adjustments were made on the F
 
 The example below shows a bad luma curve affecting patch I11 and J11 based on the generated Golden Thread values shown from the photo above.
 
-[image]
+![image10](<images/update_images/Screenshot FADGI patch j11 too low curve needs to go up 2025-02-04 at 15.35.48.png>)
 
 #### Adjusting the luma curve 
 When the last patch is moved **UP** on the curve, it carries **up** the value of patches H11, I11 and carries down the value of J11. When the patch is moved **DOWN** on the curve , the value of patches H11 and I11 drops and the values of J11 goes **up**.
 
-[image]
+![image11](<images/update_images/Screenshot FADGI with corrected curve with values given to hit 4 star for patches h11 to j11 when the curve patched m,ove it affects the values of h11 to j11 when the last curve patch is moved up  2025-02-04 at 15.43.20.png>)
 
 When the Second last patch on the curve is moved **UP** it carries **up** the value of all three patches, when it is carried **DOWN** it carries down the value of all three patches.
 
-[image]
+![image12](<images/update_images/Screenshot middle 2025-02-05 at 15.25.42.png>)
 
 When the middle patch is moved **UP** on the curve, it carries **up** the value of patches H11, I11 and carries **down** the value of J11. When the patch is moved **DOWN** on the curve the value of patches H11 and I11 drops and the values of J11 goes **up**
 
-[image]
+![image13](<images/update_images/Screenshot middle 2025-02-05 at 15.25.42.png>)
 
 When the fourth patch on the curve is carried **UP** patch H11 **drops** and the values of I11 and J11 goes **up**. When it is carried **DOWN** the values of patch H11 goes up and the values of I11 and J11 goes **down**.
 
-[image]
+![image14](<images/update_images/Screenshot 4th 2025-02-05 at 15.27.34.png>)
 
 **_Note: To determine which patches on the curve you will move and adjust will be  based on the readout values. These values give the feedback needed to change the patches' positions, helping the curve stay in line with the data._**
 
@@ -108,7 +108,7 @@ After correcting the curve and sending the image to be tested in Golden Thread y
 
 ## The Perfect Score 
 
-[image]
+![image15](images/update_images/GoldenThread_Perfect_score.png)
 
 ### The Perfect Luma Curve
 After you adjusted the curve you should get almost the perfect score 
@@ -119,14 +119,14 @@ I11:lower limit 8.46 to upper limit 11.46 with an aim of (**9.96**)
 J11:lower limit 2.91 to upper limit 5.91 with an aim of (**4.41**)\
 ( Congratulations you hit a 4 star compliant based on the values given in the Golden Thread assessment. )
 
-[image]
+![image16](<images/update_images/Screenshot 2025-02-05 144141.png>)
 
 Values of full 4 star compliant
 
 ## WHAT IF I ADJUST MY LUMA CURVE TOO MUCH?
 Excessive bumps, lifts, or dips in the luma curve suggest underlying issues and the curve should be kept as straight as possible for optimal results. Any humps should be corrected before relying on curve adjustments. (This requires patience and a steady hand)
 
-[image]
+![image17](<images/update_images/Screenshot FADGI curve ith humps and bumps  2025-02-04 at 15.40.44.png>)
 
 # Step-by-Step Guide: Creating an LCC Profile in Capture One
 ## What is LCC?
