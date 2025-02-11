@@ -16,25 +16,22 @@ controls the size of the lens opening, affecting how much light enters and the d
 4. Lighting bank rig (this is especially important with the new Nexus/Gemini rigs)
 setups of lights used to control the intensity, direction, and quality of light
 
-
 A near perfect score based on changing mechanical settings only would look like this:
+![image1](images/update_images/Patch20&21fix.png)
 
-[image]
- 
-The near perfect score shows the patches that scored 4 stars on Golden Thread as well as the darker patches.
-
-[image]
+The near perfect score shows the patches that scored 4 stars on Golden Thread as well as the darker patches
+![iamge2](images/update_images/FADGI_score_99.png)
 
 The 6% means that some neutral patches were not 4 star compliant. 
 
 
 ## WHAT IF MY IMAGE IS ALL TOO DARK OR BRIGHT?
 
-[iamge]
+[iamge3] missing
 
 WAY TOO BRIGHT  
 
-[iamge]
+[iamge4] missing
 
 WAY TOO DARK
 
@@ -53,25 +50,26 @@ If your image is too dark or too bright, ensure that the aperture is locked at f
 ### Adjust Lighting Rig 
 Always ensure that the light rigs are on **“continuous”** for BC- 100 by toggling the control on the lighting power supply and that both LED lights are on. For Versa ensure that the Nexus software is open and the Stella Gemini lights are set to **“Computer Control”** by going to the back of the light and toggling the switch to the correct setting.
 
-[image]   
+[image5] missing
 
 BC-100 Lighting Rig
 
-[image]
+[image6] missing
 
 Versa Lighting Rig 
 
 ## WHAT IF MY SCORES ARE MOSTLY GOOD AND A FEW ARE OFF?
 If your scores are mostly good, but there are a few issues, especially at the darker end of the neutrals, you can fix them by tweaking the luma curve a bit towards the lower end. We'll know which patches to adjust since Golden Thread shows a dropdown for each patch, along with its desired value.
 
-[image]
-
+![image7](images/update_images/I11_J11.png)
 
 The Image above shows that Patch I11 and J11 was too dark and did not hit the 4 star compliant Therefore we would need to adjust the **Luma curve**.
 
+The Image below shows that Patch I11 and J11 was too dark and did not hit the 4 star compliant Therefore we would need to adjust the **Luma curve**.
+
 See figures below
 
-[image]
+![image8](<images/update_images/Screenshot 2025-02-05 144141.png>)
 
 The patch readouts should read values of  
 I11:lower limit 8.74 to upper limit 11.74 with an aim of (10.24)  
@@ -81,12 +79,11 @@ J11:lower limit 4.18 to upper limit 7.18 with an aim of (5.68)
 The luma curve allows you to adjust the brightness (luminance) of specific tonal ranges in your image. 
 The example below shows the luma curve before any adjustments were made on the FADGI target. 
 
-[iamge]
+![image9](<images/update_images/Screenshot curve2025-02-05 at 16.40.04.png>)
 
 The example below shows a bad luma curve affecting patch I11 and J11 based on the generated Golden Thread values shown from the photo above.
 
-[iamge]
-
+[image]
 
 #### Adjusting the luma curve 
 When the last patch is moved **UP** on the curve, it carries **up** the value of patches H11, I11 and carries down the value of J11. When the patch is moved **DOWN** on the curve , the value of patches H11 and I11 drops and the values of J11 goes **up**.
