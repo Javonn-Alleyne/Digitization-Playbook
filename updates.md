@@ -328,6 +328,8 @@ For objects that extend beyond the flatbed (e.g., large paintings), place a larg
 4. Center the Object
     - Ensure the object is centered on the support and fills the frame with minimal borders around it.
 
+[image-ted]
+
 ## Step 5: Capture the Top Section
 - This is where you begin capturing images of the top section of your object, which will later be stitched together.
 
@@ -356,6 +358,8 @@ For objects that extend beyond the flatbed (e.g., large paintings), place a larg
     - This step helps maintain proper overlap and alignment across the whole object.
 2. Focus on Overlap
     - Focus on the overlap consistency between frames (10-20%). Don’t stress too much about the number of frames, just prioritize maintaining smooth overlap for stitching.
+
+[image-ted]
 
 ## Step 9: Verify Overlap and Alignment
 1. Check Middle Overlap
@@ -475,7 +479,7 @@ Use Capture One’s 10% grid for precision. This ensures consistent positioning 
 4. When stitching, use the Photomerge tool in Photoshop and check for any color or light discrepancies.
 5. Lighting can change during object movement—try to keep it consistent to avoid mismatched images.
 
-# Adobe Photoshop - Stitching Process
+# Stiching On VERSA - Adobe Photoshop
 ## Step 1: Open Adobe Photoshop
 1. Launch Photoshop on your computer.
 
@@ -500,8 +504,7 @@ Use Capture One’s 10% grid for precision. This ensures consistent positioning 
 2. 3. Choose your preferred file format (JPEG, PNG, TIFF, etc.).
 Name your file and select the save location.
 
-# Troubleshooting Stitching on Versa - Breakdown
-
+# Stitching On VERSA - Troubleshooting
 ## 1. Calibrating at 1000 PPI
 - Calibration Limits
     - The BC-100 calibration system is designed for resolutions up to **600 PPI**.
