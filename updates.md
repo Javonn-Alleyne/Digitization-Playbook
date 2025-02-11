@@ -135,24 +135,23 @@ The **Lens Cast Correction (LCC)** ensures neutrality and color accuracy by prov
 #### 1. Capture an LCC Reference Image
 - Place a white board in front of the lens to cover the entire field of view.
 
-[iamge]
+[iamge18] missing
 
 The image above shows how to position your white board. 
 
 By opening Capture One Live View you can reference if your board covers the entire field and it is shown perfectly below:
 
-[image]
+![image19](<images/update_images/Shanice/Screenshot 2025-02-06 at 10.58.57.png>)
 
 - Adjust the **Shutter Speed** to a value between **1/8** and **1/20** before capturing the image.
 
 - Add Color **Readouts** in the **middle**, **upper**, **and lower edges** of the frame.
 In this case, Shutter speed of 1/15 was used and Readouts placed at 5 different positions. Using the red guide to place the middle readout to get an accurate value.
 
-[image]
-
+![image20](<images/update_images/Shanice/Screenshot 2025-02-06 at 11.00.05.png>)
 - Ensure the **Color Readout values fall within the 65-70 range** before creating the LCC.
 
-[image]
+![image21](<images/update_images/Shanice/Screenshot 2025-02-06 at 11.00.31.png>)
 
 After capturing again at 1/20 the readout values are good enough to go ahead and create the LCC Profile.
 
@@ -167,11 +166,11 @@ After capturing again at 1/20 the readout values are good enough to go ahead and
 - Ensure the options for **Dust Removal, Color Cast, and Light Falloff Correction** are checked.
 - Click **Apply** to save the LCC profile.
 
-[iamge]
+![image22](<images/update_images/Shanice/Screenshot 2025-02-06 at 11.01.38.png>)
 
 After the LCC is created and the values are good, always change back to 1/8 shutter speed and capture the target and proceed to exposure and dropping color readouts on the patches. **You made it this far, Well Done!**
 
-[image]
+![iamge23](<images/update_images/Shanice/Screenshot 2025-02-06 at 11.01.47.png>)
 
 #### 4. Apply the LCC Profile to Your Images
 - Select all images shot under the same conditions as the LCC reference image.
@@ -185,7 +184,7 @@ After the LCC is created and the values are good, always change back to 1/8 shut
 ### What If My Lightness Uniformity is Off in Golden Thread?
 If Lightness Uniformity is off, this indicates an issue in key LCC creation. Here’s what you can do:
 
-[image]
+![image24](images/update_images/Lightness_Uniformity_OFF.png)
 
 The image above shows a Golden thread score of Lightness Uniformity being off
 
@@ -200,11 +199,11 @@ The image above shows a Golden thread score of Lightness Uniformity being off
 
 `Perfect examples of positioning the white board correctly and incorrectly:`
 
-[iamge]
+[iamge25] missing
 
-[image]
+[image26] missing
 
-[image]
+[image27] missing
 
 ##### 3. Adjust Shutter Speed
 - If the LCC is created out of range:
