@@ -32,7 +32,7 @@
 4. Center the Object
     - Ensure the object is centered on the support and fills the frame with minimal borders around it.
 
-[image-ted]
+![image1](../../images/update_images/remaining_images/ted-1.jpg)
 
 ## Step 5: Capture the Top Section
 - This is where you begin capturing images of the top section of your object, which will later be stitched together.
@@ -63,7 +63,7 @@
 2. Focus on Overlap
     - Focus on the overlap consistency between frames (10-20%). Don’t stress too much about the number of frames, just prioritize maintaining smooth overlap for stitching.
 
-[image-ted]
+![image2](../../images/update_images/remaining_images/ted-2.jpg)
 
 ## Step 9: Verify Overlap and Alignment
 1. Check Middle Overlap
