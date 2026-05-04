@@ -6,10 +6,9 @@ site_description: The living documentation for the Digitization Team referencing
 # Page Tree
 nav:
   - Home: index.md
+  - Table of Contents: table_of_contents.md
   - User Guide:
     - Preliminary Setup: Prelim_Setup/prelim_setup.md #index.md
-      #- dt BC100: dt_BC100/morning.md
-      #- dt Flat Bed: dt_FlatBed/morning.md
     - Pre-Flight: Pre_Flight/pre_flight.md #index.md
       #- dt BC100: dt_BC100/preflight.md
       #- dt Flat Bed: dt_FlatBed/preflight.md
@@ -23,6 +22,7 @@ nav:
     - Troubleshooting: Troubleshoot/troubleshoot.md #index.md
       #- dt BC100: Troubleshoot/troubleshoot.md
       #- dt Flat Bed: Troubleshoot/troubleshoot.md
+    - Updates: updates/updates.md
   - About:
     - About/index.md
     - Process: About/process.md
@@ -32,8 +32,8 @@ nav:
 # Configuration
 theme:
   name: material
-  logo: Assets/target_logo.png
-  favicon: Assets/target_logo.png
+  logo: Assets_docs/target_logo.png
+  favicon: Assets_docs/target_logo.png
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"

@@ -28,10 +28,10 @@ date: 2024-04-09
 
 <figure markdown>
 <<<<<<<< HEAD:DigitizationPlaybook_site_docs/docs/Shutdown/shutdown.md
-![Preflight Proc 1](../Assets/Images/Shut down .png){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1"}
+![Preflight Proc 1](../Assets_docs/Images/Shut down .png){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1"}
 <figcaption>Base Characteristics</figcaption>
 ========
-![Select Shutdown](../Assets/Images/Shutdown/Shutdown.png){ width="550px" data-title="Shut Down" data-description=".custom-desc1"}
+![Select Shutdown](../Assets_docs/Images/Shutdown/Shutdown.png){ width="550px" data-title="Shut Down" data-description=".custom-desc1"}
 <figcaption>Shut Down</figcaption>
 >>>>>>>> 1f36af55f6d11bcb7d4257455b9757b32b45d84f:mkdocs/docs/Shutdown/shutdown.md
 </figure>
@@ -49,10 +49,10 @@ date: 2024-04-09
 
 <figure markdown>
 <<<<<<<< HEAD:DigitizationPlaybook_site_docs/docs/Shutdown/shutdown.md
-![Preflight Proc 1](../Assets/Images/Lens Cap.jpeg){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1"}
+![Preflight Proc 1](../Assets_docs/Images/Lens Cap.jpeg){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1"}
 <figcaption>Base Characteristics</figcaption>
 ========
-![Lens Cap](../Assets/Images/Shutdown/LensCap.jpeg){ width="550px" data-title="Lens Cap" data-description=".custom-desc2"}
+![Lens Cap](../Assets_docs/Images/Shutdown/LensCap.jpeg){ width="550px" data-title="Lens Cap" data-description=".custom-desc2"}
 <figcaption>Lens Cap</figcaption>
 >>>>>>>> 1f36af55f6d11bcb7d4257455b9757b32b45d84f:mkdocs/docs/Shutdown/shutdown.md
 </figure>
@@ -65,10 +65,10 @@ date: 2024-04-09
 
 <figure markdown>
 <<<<<<<< HEAD:DigitizationPlaybook_site_docs/docs/Shutdown/shutdown.md
-![Preflight Proc 1](../Assets/Images/Removal Lemo Cord .png){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1"}
+![Preflight Proc 1](../Assets_docs/Images/Removal Lemo Cord .png){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1"}
 <figcaption>Base Characteristics</figcaption>
 ========
-![Remove Lemo Power Cord](../Assets/Images/Shutdown/RemovalLemoCord.png){ width="550px" data-title="Remove Lemo Power Cord" data-description=".custom-desc3"}
+![Remove Lemo Power Cord](../Assets_docs/Images/Shutdown/RemovalLemoCord.png){ width="550px" data-title="Remove Lemo Power Cord" data-description=".custom-desc3"}
 <figcaption>Remove Lemo Power Cord</figcaption>
 >>>>>>>> 1f36af55f6d11bcb7d4257455b9757b32b45d84f:mkdocs/docs/Shutdown/shutdown.md
 </figure>

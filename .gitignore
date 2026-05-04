@@ -6,3 +6,5 @@ venv/
 site/
 # Ignore cache
 **/.cache/
+
+/zholding

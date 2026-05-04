@@ -6,26 +6,27 @@ authors:
     - TBD
 date: 2024-04-04
 ---
-=== "dt BC 100 Scanner"
+=== "BC 100 Scanner"
+
     The digitizing process involves capturing images of documents, books, maps, etc. using specific equipment settings. 
 
     ## Setup and Capture
     This segment guides you through configuring the equipment for accurate image capture and systematically digitizing those objects. 
 
     1. **Cradle Preparation:**
-    - Get started by using the right foot pedal to raise the cradle glass.
-    - Next, **gently** pull the joystick back to lower the cradle into place until it slots into the base.
-    - Once the cradle is lowered, place your object in the cradle, ensuring proper positioning.
-    - Add two small targets next to the object to help with alignment and calibration while capturing the image.
-    - Use the left foot pedal and cradle handle to stabilize the cradle glass.
-    - Raise the cradle with the joy stick by pushing the joystick forward until it meets the glass **gently**.
+        - Get started by using the right foot pedal to raise the cradle glass.
+        - Next, **gently** pull the joystick back to lower the cradle into place until it slots into the base.
+        - Once the cradle is lowered, place your object in the cradle, ensuring proper positioning.
+        - Add two small targets next to the object to help with alignment and calibration while capturing the image.
+        - Use the left foot pedal and cradle handle to stabilize the cradle glass.
+        - Raise the cradle with the joy stick by pushing the joystick forward until it meets the glass **gently**.
 
     !!! note
         The right foot pedal raises the cradle glass, the left foot pedal lowers the cradle glass and the joystick moves the cradle.
 
     2. **Image Capture:**
-    - Capture the image, then **gently** lower the cradle to release the pressure.
-    - Lift the cradle glass, then turn the page, and repeat the process for each image.
+        - Capture the image, then **gently** lower the cradle to release the pressure.
+        - Lift the cradle glass, then turn the page, and repeat the process for each image.
 
     ## Production Settings
     This section covers the adjustments needed to prepare the digitized images for later use, making it easy to have them available for archiving.
@@ -35,7 +36,7 @@ date: 2024-04-04
     3. **Crop and Straighten:**
 
     <figure markdown>
-    ![Crop Tools](../Assets/Images/Digi_Process/cropTools.png){ width="350px" data-title="Crop Tools from Capture One" data-description=".custom-desc1" data-gallery="BC 100"}
+    ![Crop Tools](../Assets_docs/Images/Digi_Process/cropTools.png){ width="350px" data-title="Crop Tools from Capture One" data-description=".custom-desc1" data-gallery="BC 100"}
     <figcaption>Crop Tools from Capture One</figcaption>
     </figure>
     <div class="glightbox-desc custom-desc1">
@@ -45,7 +46,7 @@ date: 2024-04-04
     - Click on the *crop tool* located in the cursor tools.
 
     <figure markdown>
-    ![Crop Ratios](../Assets/Images/Digi_Process/cropRatio.png){ width="350px" data-title="Crop Ratio from Capture One" data-description=".custom-desc2" data-gallery="BC 100"}
+    ![Crop Ratios](../Assets_docs/Images/Digi_Process/cropRatio.png){ width="350px" data-title="Crop Ratio from Capture One" data-description=".custom-desc2" data-gallery="BC 100"}
     <figcaption>Crop Ratio from Capture One</figcaption>
     </figure>
     <div class="glightbox-desc custom-desc2">
@@ -55,7 +56,7 @@ date: 2024-04-04
     - Set *Crop Ratio* to *unconstrained* for flexibility. 
 
     <figure markdown>
-    ![Autocorrect](../Assets/Images/Digi_Process/AutoCorrect.png){ width="350px" data-title="Autocorrect from Capture One" data-description=".custom-desc3" data-gallery="BC 100"}
+    ![Autocorrect](../Assets_docs/Images/Digi_Process/AutoCorrect.png){ width="350px" data-title="Autocorrect from Capture One" data-description=".custom-desc3" data-gallery="BC 100"}
     <figcaption>Autocorrect from Capture One</figcaption>
     </figure>
     <div class="glightbox-desc custom-desc3">
@@ -66,28 +67,30 @@ date: 2024-04-04
     - Select *Method* and set it to *bound material* for objects that are bound together.
     - Set the *Straighten* option to *Average*.
     - Apply a padding of 100 pixels for a clean look. 
-    4. **Focus Check:** Use the focus tool to ensure all four corners of the images are clear and sharp.
 
-=== "dt Versa Flatbed Scanner"
+    <ol>4. **Focus Check:** Use the focus tool to ensure all four corners of the images are clear and sharp.</ol>
+    
+
+=== "Versa Flatbed Scanner"
     The digitizing process involves capturing images of documents, books, maps, etc. using specific equipment settings. 
 
     ## Setup and Capture
     This segment guides you through configuring the equipment for accurate image capture and systematically digitizing those objects. 
 
     1. **Cradle Preparation:**
-    - Get started by using the right foot pedal to raise the cradle glass.
-    - Next, **gently** pull the joystick back to lower the cradle into place until it slots into the base.
-    - Once the cradle is lowered, place your object in the cradle, ensuring proper positioning.
-    - Add two small targets next to the object to help with alignment and calibration while capturing the image.
-    - Use the left foot pedal and cradle handle to stabilize the cradle glass.
-    - Raise the cradle with the joy stick by pushing the joystick forward until it meets the glass **gently**.
+        - Get started by using the right foot pedal to raise the cradle glass.
+        - Next, **gently** pull the joystick back to lower the cradle into place until it slots into the base.
+        - Once the cradle is lowered, place your object in the cradle, ensuring proper positioning.
+        - Add two small targets next to the object to help with alignment and calibration while capturing the image.
+        - Use the left foot pedal and cradle handle to stabilize the cradle glass.
+        - Raise the cradle with the joy stick by pushing the joystick forward until it meets the glass **gently**.
 
     !!! note "Note"
         The right foot pedal raises the cradle glass, the left foot pedal lowers the cradle glass and the joystick moves the cradle.
 
     2. **Image Capture:**
-    - Capture the image, then **gently** lower the cradle to release the pressure.
-    - Lift the cradle glass, then turn the page, and repeat the process for each image.
+        - Capture the image, then **gently** lower the cradle to release the pressure.
+        - Lift the cradle glass, then turn the page, and repeat the process for each image.
 
     ## Production Settings
     This section covers the adjustments needed to prepare the digitized images for later use, making it easy to have them available for archiving.
@@ -97,7 +100,7 @@ date: 2024-04-04
     3. **Crop and Straighten:**
   
     <figure markdown>
-    ![Crop Tools](../Assets/Images/Digi_Process/cropTools.png){ width="350px" data-title="Crop Tools from Capture One" data-description=".custom-desc4" data-gallery="Flatbed"}
+    ![Crop Tools](../Assets_docs/Images/Digi_Process/cropTools.png){ width="350px" data-title="Crop Tools from Capture One" data-description=".custom-desc4" data-gallery="Flatbed"}
     <figcaption>Crop Tools from Capture One</figcaption>
     </figure>
     <div class="glightbox-desc custom-desc4">
@@ -107,7 +110,7 @@ date: 2024-04-04
     - Click on the *crop tool* located in the cursor tools.
 
     <figure markdown>
-    ![Crop Ratios](../Assets/Images/Digi_Process/cropRatio.png){ width="350px" data-title="Crop Ratio from Capture One" data-description=".custom-desc5" data-gallery="Flatbed"}
+    ![Crop Ratios](../Assets_docs/Images/Digi_Process/cropRatio.png){ width="350px" data-title="Crop Ratio from Capture One" data-description=".custom-desc5" data-gallery="Flatbed"}
     <figcaption>Crop Ratio from Capture One</figcaption>
     </figure>
     <div class="glightbox-desc custom-desc5">
@@ -117,7 +120,7 @@ date: 2024-04-04
     - Set *Crop Ratio* to *unconstrained* for flexibility. 
 
     <figure markdown>
-    ![Autocorrect](../Assets/Images/Digi_Process/AutoCorrect.png){ width="350px" data-title="Autocorrect from Capture One" data-description=".custom-desc6" data-gallery="Flatbed"}
+    ![Autocorrect](../Assets_docs/Images/Digi_Process/AutoCorrect.png){ width="350px" data-title="Autocorrect from Capture One" data-description=".custom-desc6" data-gallery="Flatbed"}
     <figcaption>Autocorrect from Capture One</figcaption>
     </figure>
     <div class="glightbox-desc custom-desc6">
@@ -128,5 +131,6 @@ date: 2024-04-04
     - Select *Method* and set it to *bound material* for objects that are bound together.
     - Set the *Straighten* option to *Average*.
     - Apply a padding of 100 pixels for a clean look. 
-    4. **Focus Check:** Use the focus tool to ensure all four corners of the images are clear and sharp.
+
+    <ol>4. **Focus Check:** Use the focus tool to ensure all four corners of the images are clear and sharp.</ol>
 
