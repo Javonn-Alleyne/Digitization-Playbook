@@ -4,269 +4,193 @@ summary: The pre-flight steps of the digitization process
 authors:
     - Tyiesha Bryan
     - TBD
+    - Javonn Alleyne
 date: 2024-04-04
+update: 2026-05-05
 ---
 
-=== "BC 100 Scanner"
-    Before starting the capture process, the Pre-Flight workflow ensures that the camera settings are configured properly, which includes camera resolution, focus, LCC, white balance, and exposure, so that images are an accurate reproduction of the original object.
+# Capture One Settings and Calibration Workflow
+We have finished our preliminary checks and now we are ready to calibrate our cameras. Here we will be adjusting the *Resolution*, *Focus*, *LCC*, *White Balance* and *Exposure* of our camera.
 
-    ## Base Characteristics
-    The base characteristics are how the system is supposed to be configured at the start of the Pre-Flight.
+*All steps apply to both Scanner types*
 
-    <figure markdown>
-    ![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/PreFlight_001.png){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1" data-gallery="BC 100"}
-    <figcaption>Base Characteristics</figcaption>
-    </figure>
-    <div class="glightbox-desc custom-desc1">
-      <p></p>
-    </div>
+<!-- <figure markdown>
+![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/PreFlight_001.png){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1" data-gallery="BC 100"}
+<figcaption>Base Characteristics</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc1">
+  <p></p>
+</div> -->
+## Minor Adjustments
+### Live View 
+Live View provides a real-time display of what the camera lens is seeing in the bed of the scanner, allowing for ad-hoc adjustments. This ensures that the final image meets desired standards before committing to production.
 
-    1. To begin, click on the **capture button** under the Pre-Flight tool tab, located in the Camera settings.
+To enter **Live View mode** click on the **Live View** button under the **Pre-Flight** tool tab. - ???
 
-    2. **`Base Characteristics:`**
-        - **`Mode`:** Photography
-        - **`ICC Profile`:** Phase One iXH 150 MP Flat Art LED DTPortion
-        - **`Curve`:** Linear Scientific
+<figure markdown>
+![Preflight Proc 2](../Assets_docs/Images/Pre_Flight/PreFlight_003.png){ width="550px" data-title="Live View" data-description=".custom-desc2" data-gallery="BC 100"}
+<figcaption>Live View</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc2">
+  <p></p>
+</div>
 
-    ## Live View 
-    Live View provides a real-time display of what the camera lens is capturing, allowing for adjustments to composition and sharpness. This ensures that the final image meets desired standards before capture.
+The main things You want to focus on here are the **Resolution** and **Auto-Focus** features under the **Camera Focus** palette.
 
-    <figure markdown>
-    ![Preflight Proc 2](../Assets_docs/Images/Pre_Flight/PreFlight_003.png){ width="550px" data-title="Live View" data-description=".custom-desc2" data-gallery="BC 100"}
-    <figcaption>Live View</figcaption>
-    </figure>
-    <div class="glightbox-desc custom-desc2">
-      <p></p>
-    </div>
+- We set the resolution to **600PPI** to capture the finer details while meeting the requirements of our standards of 97% FADGI 4-star.
+- The **Auto-Focus** helps to maintain a consistent focal plane across multiple images. It also helps when materials are not perfectly flat
 
-    1. To enter **Live View** mode click on the **Live View button** under the Pre-Flight tool tab.
+*The Two work together to maintain overall sharpness of images.*
 
-        <figure markdown>
-        ![Preflight Proc 3](../Assets_docs/Images/Pre_Flight/PreFlight_004.png){ width="550px" data-title="Auto-Focus" data-description=".custom-desc3" data-gallery="BC 100"}
-        <figcaption>Auto-Focus</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc3">
-          <p></p>
-        </div>
+!!! note "Advance Technique"
+    If you wish you can position the auto-focus anywhere on the image, this will be useful for more advanced techniques
 
-    2. **Set Camera Resolution:** Under the **Camera Focus** panel, set the camera *Resolution* to *600-PPI*.
-    3. **Auto-focus (AF):** In the same panel, select *AF* to allow the software to automatically adjust the camera len focus based on the selected focus point. Drag the prompt to target to lock focus, if necessary.
-    4. **Capture:** Use ++windows+"K"++ keys or the hand pedal to capture the target.
-    5. **Zoom in:** Using the zoom slider or keyboard shortcuts, zoom in to the 600 mark on the target until the 5 resolution lines are visible.
+Next click the capture button or Use ++windows+"K"++ shortcut keys or the foot pedal to capture the target.
 
-        <figure markdown>
-        ![Preflight Proc 4](../Assets_docs/Images/Pre_Flight/Resolution_Lines.png){ width="550px" data-title="Resolution Lines" data-description=".custom-desc4" data-gallery="BC 100"}
-        <figcaption>Resolution Lines</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc4">
-          <p></p>
-        </div>
+<figure markdown>
+![Preflight Proc 3](../Assets_docs/Images/Pre_Flight/PreFlight_004.png){ width="550px" data-title="Auto-Focus" data-description=".custom-desc3" data-gallery="BC 100"}
+<figcaption>Auto-Focus</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc3">
+  <p></p>
+</div>
 
-    6. **Capture:** Press capture to confirm adjustments.
+## Major Adjustments
+Next, we need to adjust 3 key settings of the camera. *This process is not perfect and will take a few tries. Keep clam and ask for any assistance* 
 
-    ## LCC board (white board) 
-    The LCC board is used along with the software to correct lens cast, which is produced by uneven lighting across the frame. The LCC board is placed parallel above the glass plate matching the angle of the object being photograph. 
+>Here is where we need to be as accurate as we can be to comply with our 97% FADGI 4-star.
 
-    The LCC board must fill the frame before capturing. 
-    
-    1. **Prepare LCC board:** Get the LCC board.
+??? Note
+    Take a minute to zoom in to the resolution line son your target to the 600 mark on the target until the 5 resolution lines are visible. This check ensures our resolution is correct
 
-        <figure markdown>
-        ![Preflight Proc 5](../Assets_docs/Images/Pre_Flight/PreFlight_006.png){ width="550px" data-title="LĊĊ Board" data-description=".custom-desc5" data-gallery="BC 100"}
-        <figcaption>LCC Board</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc5">
-          <p>LCC Board</p>
-        </div>
+<figure markdown>
+![Preflight Proc 4](../Assets_docs/Images/Pre_Flight/Resolution_Lines.png){ width="550px" data-title="Resolution Lines" data-description=".custom-desc4" data-gallery="BC 100"}
+<figcaption>Resolution Lines</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc4">
+  <p></p>
+</div>
 
-    2. **Position Board:** Place the board parallel to the glass, and ensure the LCC board covers the Live View frame.
-    3. **Capture:** Press Capture in the toolbar or use the keyboard shortcut.
+### LCC
+The LCC board, commonly known as the *White Board* is used to evenly distribute light. It should be placed parallel above the glass plate matching the angle of the object being photograph. 
 
-        <figure markdown>
-        ![Preflight Proc 6](../Assets_docs/Images/Pre_Flight/AddColorReadout.png){ width="250px" data-title="Add Color Readout" data-description=".custom-desc6" data-gallery="BC 100"}
-        <figcaption>Add Color Readout</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc6">
-          <p></p>
-        </div>
+>What does LCC stand for? **Lens Cast Correction** ensures neutrality and colour accuracy by providing even exposure and brightness. For more go [here]
+ 
+Get your LCC board and place it parallel to the glass, ensure the LCC board covers fills the frame before capturing. Press the **Capture Button** in the toolbar or use the keyboard shortcut ++windows+"K"++.
 
-    4. **Add Color Readout:** Go to the cursor toolbar and select **Add Color Readout**. Add the *Color Readouts* to the four corners and middle of the LCC board, ensure the *Color Readout* in the middle of the target reads **60** or **70**.
+>You can ask for assistance from your partner or use the foam blocks, plastazote blocks, to stabilise the board to get it perfectly parallel
 
-        <figure markdown>
-        ![Preflight Proc 7](../Assets_docs/Images/Pre_Flight/PreFlight_008.png){ width="550px" data-title="Color Readout" data-description=".custom-desc7" data-gallery="BC 100"}
-        <figcaption>Color Readout</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc7">
-          <p></p>
-        </div>
+<figure markdown>
+![Preflight Proc 5](../Assets_docs/Images/Pre_Flight/PreFlight_006.png){ width="550px" data-title="LĊĊ Board" data-description=".custom-desc5" data-gallery="BC 100"}
+<figcaption>LCC Board</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc5">
+  <p>LCC Board</p>
+</div>
 
-    5. **Check Readouts:** Make sure *Readouts* in all four corners match the middle.
-    6. **Adjust Shutter Speed:** If readouts exceed 70 make the necessary adjustments to the shutter speed.
-
-        <figure markdown>
-        ![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/PreFlight_009.png){ width="550px" data-title="CreateLCC" data-description=".custom-desc8"}
-        <figcaption>Create LCC</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc8">
-          <p></p>
-        </div>
-           
-    7. **Create LCC:** In the LCC panel, select *Create LCC* and capture the target.
-
-    ## White Balance
-    This process adjusts the colour of the photos captured to accurately represent how they appear in real life under the LCC lighting conditions. Ensuring whites appear truly white rather than a tinted colour.
-
-      <figure markdown>
-      ![Preflight Proc 9](../Assets_docs/Images/Pre_Flight/DeleteReadouts.png){ width="490px" data-title="Delete Readouts" data-description=".custom-desc9" data-gallery="BC 100"}
-      <figcaption>Delete Readouts</figcaption>
-      </figure>
-      <div class="glightbox-desc custom-desc9">
-        <p></p>
-      </div>
-      
-    1. **Delete Readouts:** click with the ++right-button++ on one of the readouts and select delete all to remove.
-
-        <figure markdown>
-        ![Preflight Proc 10](../Assets_docs/Images/Pre_Flight/WhiteBalance.png){ width="450px" data-title="White Balance" data-description=".custom-desc10" data-gallery="BC 100"}
-        <figcaption>White Balance</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc10">
-          <p></p>
-        </div>
-
-    2. **Add white balance:** Under *White Balance* in the left pane select the picker (eyedropper) to apply the **White Balance**.
-    3. **Zoom In:** Using the zoom controls zoom in on the target to colour patch **70** (value changes based on target) and click on it.
-    4. **Coordinate Exposure Settings:** One system does the white balance first, providing the second operator with their setting values. Ensure communication between operators for consistent setting values. 
-
-    ## Exposure 
-    Exposure adjustments are based on the amount of light that reaches the camera sensor, and is determined by the shutter speed, aperture and ISO.
-
-    1. **Check Readouts:** Ensure readouts are within the expected range (e.g., close to the colour patch value, ideally 70 but 69.0 is acceptable)
-    2. **Add Readouts:** In the cursor tools section, select the *color editor tool*, and from the dropdown list, select *Add Color Readout* to add readouts to first 6 patches (Patch 70 - 95)
-
-        <figure markdown>
-        ![Preflight Proc 11](../Assets_docs/Images/Pre_Flight/BeforeReadouts.png){ width="650px" data-title="Before Readouts" data-description=".custom-desc11" data-gallery="BC 100"}
-        <figcaption>Before Readouts</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc11">
-          <p></p>
-        </div>
-    
-
-        <figure markdown>
-        ![Preflight Proc 12](../Assets_docs/Images/Pre_Flight/Readouts.png){ width="650px" data-title="Color Readouts" data-description=".custom-desc12" data-gallery="BC 100"} 
-        <figcaption>Color Readouts</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc12">
-          <p></p>
-        </div>
+!!! note "DTVERSA specific"
+    For DTVERSA Scanner the whiteboard is placed flat on the bed. The White Board is only angled for the BC100 Scanners.
 
 
-        !!! note
-            Ensure that Readouts are placed in the middle of the color patch for an accurate Readout.
+#### Colour Readouts
+Next come the colour readouts. These are your quality checks to capture any errors in your lighting before creating the LLC.  
 
-        <figure markdown>
-        ![Preflight Proc 13](../Assets_docs/Images/Pre_Flight/ShutterAdjustments.png){ width="250px" data-title="Shutter Adjustment" data-description=".custom-desc13" data-gallery="BC 100"}
-        <figcaption>Shutter Adjustment</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc13">
-          <p></p>
-        </div>
+To add colour readouts, go to the cursor toolbar and select **Add Color Readout**. Add the *Color Readouts* to the four corners and middle of the LCC board, ensure the *Color Readout* in the middle of the target reads between **60** to **70**.
 
-    3. **Adjust Shutter Speed:** Navigate to the camera settings in the Pre-Flight tab to change the shutter speed to match the correct values, typically adjusting to 1/20 or 1/5 (trigger speed).
-    4. **Capture:** Capture to save the setting adjustments as you go.  
+<figure markdown>
+![Preflight Proc 6](../Assets_docs/Images/Pre_Flight/AddColorReadout.png){ width="250px" data-title="Add Color Readout" data-description=".custom-desc6" data-gallery="BC 100"}
+<figcaption>Add Color Readout</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc6">
+  <p></p>
+</div>
 
-=== "Versa Flatbed Scanner"
 
-    The Pre-Flight workflow ensures precise configuration of camera settings, which includes camera resolution, focus, LCC, white balance, and exposure, so that images are an accurate reproduction of the original object.
+<figure markdown>
+![Preflight Proc 7](../Assets_docs/Images/Pre_Flight/PreFlight_008.png){ width="550px" data-title="Color Readout" data-description=".custom-desc7" data-gallery="BC 100"}
+<figcaption>Color Readout</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc7">
+  <p></p>
+</div>
 
-    ## Base Characteristics
-    The base characteristics are how the system is supposed to be configured at the start of the preflight.
+>Exceeding 70? Try adjusting the shutter speed. 
 
-    <figure markdown>
-    ![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/dt_FlatBed/FB_BaseCharacteristics.png){ width="550px" data-title="Base Characteristics" data-description=".custom-desc1" data-gallery="Flatbed"}
-    <figcaption>Base Characteristics</figcaption>
-    </figure>
-    <div class="glightbox-desc custom-desc1">
-      <p></p>
-    </div>
+If everything looks correct, find the LCC section in the left palette, create the LCC then capture the target. 
 
-    1. To begin, click on the **capture button** under the Pre-Flight tool tab, located in the Camera settings.
+<figure markdown>
+![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/PreFlight_009.png){ width="550px" data-title="CreateLCC" data-description=".custom-desc8"}
+<figcaption>Create LCC</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc8">
+  <p></p>
+</div>
+        
+### White Balance
+This process adjusts the colour of the photos captured to accurately represent how they appear in real life under the LCC lighting conditions. Ensuring whites appear truly white rather than a tinted colour.
 
-    2. **`Base Characteristics:`**
-        - **`Mode`:** Photography
-        - **`ICC Profile`:** Phase One iXH 150 MP Flat Art LED DTPortion
-        - **`Curve`:** Linear Scientific
+!!! note "Important!"
+    click with the ++right-button++ on one of the readouts and select delete all to remove.
 
-    3. **Transmissive Target Setup:** Place transmissive target in tray with the non-shiny side of the target facing up towards the camera. 
+<figure markdown>
+![Preflight Proc 9](../Assets_docs/Images/Pre_Flight/DeleteReadouts.png){ width="490px" data-title="Delete Readouts" data-description=".custom-desc9" data-gallery="BC 100"}
+<figcaption>Delete Readouts</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc9">
+  <p></p>
+</div>
 
-    ## Live View 
-    Live View provides a real-time display of what the camera lens is capturing, allowing for adjustments to composition and sharpness. This ensures that the final image meets desired standards before capture.
+**Add white balance:** Under *White Balance* in the left pane select the picker (eyedropper) to apply the **White Balance**.
 
-      <figure markdown>
-      ![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/dt_FlatBed/FB_Focus.png){ width="550px" data-title="Adjust Focus" data-description=".custom-desc1" data-gallery="Flatbed"}
-      <figcaption>Adjust Focus</figcaption>
-      </figure>
-      <div class="glightbox-desc custom-desc1">
-        <p></p>
-      </div>
+**Zoom In:** Using the zoom controls zoom in on the target to colour patch **70** (value changes based on target) and click on it.
 
-    1. **Set Resolution PPI** Open *Live View* to set the *Resolution PPI* to 4000 or 5000.
-        - **Enter PPI Value:** Enter the PPI value to 4000 PPI or 5000 PPI, or click ">" and "<" to adjust the PPI.
-        - **Focus:** Use the hand control to manually focus the camera by pushing the up and down keys until the *Live View Focus Meter* is highlighted orange.
-        - **Capture:** Capture the target and zoom in on the purple icons to ensure the resolution is clear.
+**Coordinate Exposure Settings:** One system does the white balance first, providing the second operator with their setting values. Ensure communication between operators for consistent setting values. 
 
-            !!! note "NOTE"
-                When zooming in on the purple icons check for crisp, well-defined edges, and fine details with no blurring or softness. 
-       
-    2. **Apply Guidelines:** Navigate to *Guides*, under the *System Check tab* to apply guidelines and position the guidelines, so the film target is in the center of the guidelines.
-    <figure markdown>
-          ![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/dt_FlatBed/FB_Guidelines.png){ width="550px" data-title="Guidelines" data-description=".custom-desc1" data-gallery="Flatbed"}
-          <figcaption>Guidelines</figcaption>
-          </figure>
-          <div class="glightbox-desc custom-desc1">
-            <p></p>
-          </div>
-        - **Capture Target:** Capture to save setting.  
+<figure markdown>
+![Preflight Proc 10](../Assets_docs/Images/Pre_Flight/WhiteBalance.png){ width="450px" data-title="White Balance" data-description=".custom-desc10" data-gallery="BC 100"}
+<figcaption>White Balance</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc10">
+  <p></p>
+</div>
 
-    3. **Remove Transmissive Target:** Once guidelines are applied, remove the transmissive target from the target tray.
 
-    4. **Check Lighting:** Put the camera in live view mode and ensure that the lighting covers all borders of the capture area.
+### Exposure 
+Exposure is based on the amount of light that reaches the camera sensor and is determined by the **Shutter Speed**, **Aperture** and **ISO**.
 
-        !!! note "Note"
-            If the light doesn't cover all four corners of the capture area use the sliders on the the flatbed bench to adjust the light. 
+**Check Readouts:** Ensure readouts are within the expected range (e.g., close to the colour patch value, ideally 70 but 69.0 is acceptable)
 
-    5. **Adjust Color Readout:** Go to the cursor toolbar and select **Add Color Readout**. Apply the color readout to the middle of the capture area in *Live View*. Adjust the shutter speed to get as close to 95 and adjust the exposure slidder to ensure *Readout* is 95.
+**Add Readouts:** In the cursor tools section, select the *color editor tool*, and from the dropdown list, select *Add Color Readout* to add readouts to first 6 patches (Patch 70 - 95)
 
-     <figure markdown>
-        ![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/dt_FlatBed/FB_ColorReadout.png){ width="550px" data-title="ColorReadout" data-description=".custom-desc1" data-gallery="Flatbed"}
-        <figcaption>Color Readout</figcaption>
-        </figure>
-        <div class="glightbox-desc custom-desc1">
-          <p></p>
-        </div>
-    
-        !!! note
-            If Readouts are 100, it is too high. Change shutter speed and aperture until Readouts read 95 or close to 95.
+<figure markdown>
+![Preflight Proc 11](../Assets_docs/Images/Pre_Flight/BeforeReadouts.png){ width="650px" data-title="Before Readouts" data-description=".custom-desc11" data-gallery="BC 100"}
+<figcaption>Before Readouts</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc11">
+  <p></p>
+</div>
 
-    
-    <figure markdown>
-            ![Preflight Proc 1](../Assets_docs/Images/Pre_Flight/dt_FlatBed/FB_LCC.png){ width="550px" data-title="CreateLCC" data-description=".custom-desc1" data-gallery="Flatbed"}
-            <figcaption>Create LCC</figcaption>
-            </figure>
-            <div class="glightbox-desc custom-desc1">
-              <p></p>
-            </div>
-    6. **Create LCC:** In the LCC panel, select *Create LCC* and capture the target. 
 
-    ## White Balance
-    This process adjusts the colour of the photos captured to accurately represent how they appear in real life under the LCC lighting conditions. Ensuring whites appear truly white rather than a tinted colour.
+<figure markdown>
+![Preflight Proc 12](../Assets_docs/Images/Pre_Flight/Readouts.png){ width="650px" data-title="Color Readouts" data-description=".custom-desc12" data-gallery="BC 100"} 
+<figcaption>Color Readouts</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc12">
+  <p></p>
+</div>
 
-    1. **Delete Readouts:** click with the ++right-button++ on one of the readouts and select delete all to remove.
 
-    2. **Add White Balance:** Under *White Balance* in the left pane select the picker to apply, then click on a neutral area of the photo to set the white balance. Capture the image. 
+!!! note
+    Ensure that Readouts are placed in the middle of the color patch for an accurate Readout.
 
-    **Exposure:**
-    Exposure adjustments are based on the amount of light that reaches the camera sensor, and is determined by the shutter speed, aperture and ISO.
+**Adjust Shutter Speed:** Navigate to the camera settings in the Pre-Flight tab to change the shutter speed to match the correct values, typically adjusting to 1/20 or 1/5 (trigger speed).
 
-    **Adjust Exposure:** In the *PreFlight tab, under *Exposure panel*, select the *Exposure slider* to adjust the exposure, when necessary.  
+**Capture:** Capture to save the setting adjustments as you go.  
+
+<figure markdown>
+![Preflight Proc 13](../Assets_docs/Images/Pre_Flight/ShutterAdjustments.png){ width="250px" data-title="Shutter Adjustment" data-description=".custom-desc13" data-gallery="BC 100"}
+<figcaption>Shutter Adjustment</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc13">
+  <p></p>
+</div>

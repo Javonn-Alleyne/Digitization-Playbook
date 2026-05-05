@@ -11,20 +11,20 @@ date:
 ---
 
 # General Workplace Preparation
-These rules are set in palce and **should be followed** to prevent and reduce any further damage done to the historical objects.
+These rules are set in place and **should be followed** to prevent and reduce any further damage done to the historical objects.
 
 **Before entering the workspace (103 suite) all Operators should**:
 
 - not carry any liquid or food items into the workspace
 - be present and on time after the morning stand up meeting
-- remove any jewelry realted to fingers, hands and wrists
+- remove any jewellery related to fingers, hands and wrists
 - wash and dry their hands thoroughly
 - avoid touching their face or other potential contaminant surfaces
     - if contamination is unavoidable, wash and dry hands immediately
 - wear the provided safety equipment in the workspace at all times
 
 # Hardware Preparations and Setup
-Below are a series of setps each Digitisation Technician, Operator, should follow each day to prepare their workstation. Currently there are two types of workstations. The *V-bed Scanner* (*BC100*) and The *Flatbed Scanner* (*VERSA/DTVERSA*). Each scanner has differnet mechanical setups however they both use the same software.
+Below are a series of steps each Digitisation Technician, Operator, should follow each day to prepare their workstation. Currently there are two types of workstations. The *V-bed Scanner* (*BC100*) and The *Flatbed Scanner* (*VERSA/DTVERSA*). Each scanner has different mechanical setups however they both use the same software.
 
 ## BC100 Scanner Hardware Setup
 Below are a series of steps related to the BC100 Scanners within the 103 suite (from top to bottom after the main door: 103F, 103F, 1O3E, 103E). Each BC100 Scanner has two seating positions, left and right. Each one will follow the steps listed below.
@@ -32,7 +32,7 @@ Below are a series of steps related to the BC100 Scanners within the 103 suite (
 [image of full station]
 
 **Lights**  
-Approch the left side of the workstation and upzip the protective tarpaulin.
+Approach the left side of the workstation and unzip the protective tarpaulin.
 
 <figure markdown>
 ![Prelim Proc 1](../Assets_docs/Images/Prelim_Setup/bc100/Booth_zipped_pointing_up.png){ width="500px" data-title="Workstation with zipped protective covering" data-description=".custom-desc1" data-gallery="BC 100"}
@@ -56,11 +56,11 @@ From left to right, confirm for both *Bank A* and *Bank B*:
 
 - their individual power switches are set to on
 - their lighting switches are set to continuous
-- the first dial from the left labeled *DIM* is set to *min*
-- the second dial from the left labeled *FLASH* is set to *+2.3*
+- the first dial from the left labelled *DIM* is set to *min*
+- the second dial from the left labelled *FLASH* is set to *+2.3*
 
 **Computers (macStudios)**   
-At the back of each macStudio, there is a power button at the bottom-left. If you are unsure, place your finger in the middle to land on the cables as a guide, then move as far left as you can. Your finger should feel a faint imprint, that is the power button. You will know when you see a white light appear at the front on the bottom-right. 
+At the back of each macStudio, there is a power button at the bottom left. If you are unsure, place your finger in the middle to land on the cables as a guide, then move as far left as you can. Your finger should feel a faint imprint, that is the power button. You will know when you see a white light appear at the front on the bottom right. 
 
 <figure markdown>
 ![Prelim Proc 3](../Assets_docs/Images/Prelim_Setup/overall/Work_Station_Power_Button.png){ width="500px" data-title="Workstation Computer's Power Button" data-description=".custom-desc3" data-gallery="BC 100"}
@@ -70,7 +70,7 @@ At the back of each macStudio, there is a power button at the bottom-left. If yo
     <p></p>
 </div>
 
-A white light should appear at the front, in the bottom right, to singnal the station is powered on.
+A white light should appear at the front, in the bottom right, to signal the station is powered on.
 
 <figure markdown>
 ![Prelim Proc 4](../Assets_docs/Images/Prelim_Setup/overall/workstation_power_led.png){ width="500px" data-title="Workstation Power Indicator" data-description=".custom-desc3-5" data-gallery="BC 100"}
@@ -81,9 +81,9 @@ A white light should appear at the front, in the bottom right, to singnal the st
 </div>
 
 ??? note "Still not sure?"
-    *If your finger feels a hole, it is the headphone jack and you should move one over*
+    *If your finger feels a hole, it is the headphone jack, and you should move one over*
 
-**Cameras** - rewrite (we dont do this anymore)
+**Cameras** - rewrite (we do not do this anymore)
 
 - Prepare the cameras by plugging in the relevant loose cables into the ports at the back of the cameras, ensuring the red dots on the cables align with the red dots on the camera ports.
 - Unscrew and remove the lens caps carefully, without harming the lenses underneath.
@@ -138,13 +138,13 @@ The Flatbed, VERSA/DTVERSA, Scanner follows a different hardware setup path that
 ### Camera Settings
 1. **Connect Lemo Cord**: Plug the silver lens cord with the **red dot** into the back of the camera.
 
-# Software Preperations and Setup
+# Software Preparations and Setup
 ## Login and Startup
 Now that the Station is powered on and we can begin our software setup. Enter the login credentials provided for you and launch the Capture One application. 
 
-![image of location of capture on on the desktop]
+![image of location of capture on the desktop]
 
-After Capture One has opened you will see a new window pop up. Fromt here, we look for and click the `New Session...` button to get to Capture One's main window.
+After Capture One has opened you will see a new window pop up. From here, we look for and click the `New Session...` button to get to Capture One's main window.
 
 <figure markdown>
 ![Prelim Proc 8](../Assets_docs/Images/Prelim_Setup/overall/New_Session_Open_Capture.png){ width="586px" data-title="New Session in Open Capture" data-description=".custom-desc7" data-gallery="BC 100"}
@@ -157,7 +157,7 @@ After Capture One has opened you will see a new window pop up. Fromt here, we lo
 Now we are on the main Capture One window. As you can see, they are a myriad of tools at your disposal. Stay calm and follow the instructions provided. 
 
 ??? note "On the safe side"
-    For a quick systems checkk, click on the `Capture` button in the top left. *It is denoted as a large Circle*. An image of the Scanner's bed will appear in the right pallete.
+    For a quick systems check, click on the `Capture` button in the top left. *It is denoted as a large Circle*. An image of the Scanner's bed will appear in the right palette.
     <figure markdown>
     ![Capture Button](../Assets_docs/Images/Prelim_Setup/versa/Activate_Camera_System.png){ data-title="Capture Button" data-description=".custom-desc2" data-gallery="Flatbed"}
     <figcaption>Capture Button</figcaption>
@@ -171,7 +171,7 @@ Now we are on the main Capture One window. As you can see, they are a myriad of 
 ## System Check
 Next we want to verify our *Base Characteristics*, *Sharpening* and *Noise Reduction*. 
 
-The Base Characteristics are pre-configured setings for optimal capture quality. while further details can be found in the *[link]Pre-Flight* section.  
+The Base Characteristics are pre-configured settings for optimal capture quality. while further details can be found in the *[link]Pre-Flight* section.  
 Ensure the following settings are set to:
 
 - **`Mode`:** Photography

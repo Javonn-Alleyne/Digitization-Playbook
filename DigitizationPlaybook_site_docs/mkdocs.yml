@@ -10,8 +10,6 @@ nav:
   - User Guide:
     - Preliminary Setup: Prelim_Setup/prelim_setup.md #index.md
     - Pre-Flight: Pre_Flight/pre_flight.md #index.md
-      #- dt BC100: dt_BC100/preflight.md
-      #- dt Flat Bed: dt_FlatBed/preflight.md
     - Process: Digi_Process/digi_proc.md #index.md
       #- dt BC100: dt_BC100/digiproc.md
       #- dt Flat Bed: dt_FlatBed/digiproc.md
